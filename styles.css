@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:sans-serif;
+}
+
+body {
+    background-color: #2b2b55;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header{
+    color: aliceblue;
+    margin: 25px 0px;
+}
+
+section.content{
+    background-color: aliceblue;
+    padding: 20px;
+    min-width: 500px;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 0px 0px 50px 5px rgba(0,0,0,0.6);
+    margin: 25px 0;
+}
+
+footer{
+    margin: 25px 0;
+    color: aliceblue;
+    font-style: italic;
+}
+
+div#msg{
+    margin: 15px 0;
+}
+
+div#foto{
+    margin: 25px 0;
+}
+
+img{
+    width: 350px;
+}
